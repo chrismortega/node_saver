@@ -1,7 +1,7 @@
 'use strict';
  
 const Router = require('express');
-const personRepo = require('../repo/personRepository');
+const personRepo = require('../../infrastructure/personRepository');
  
 const getPersonRoutes = (app) => {
     const router = new Router();

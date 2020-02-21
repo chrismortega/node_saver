@@ -1,6 +1,6 @@
 'use strict';
  
-const Person = require('../json/person');
+const Person = require('../models/person');
  
 class PersonRepository {
     constructor() {
